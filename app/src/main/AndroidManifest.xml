@@ -22,6 +22,10 @@
         <activity
             android:name=".inserir_dados"
             android:label="@string/title_activity_inserir_dados"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".selecionar_itens"
+            android:label="@string/title_activity_selecionar_itens"
             android:theme="@style/AppTheme.NoActionBar"></activity>
     </application>
 
