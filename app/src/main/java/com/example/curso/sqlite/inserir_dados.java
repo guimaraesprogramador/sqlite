@@ -36,18 +36,21 @@ Button inserir_elementos;
             }
         });
     }
-    class inserir{
-       private SQLiteDatabase db;
-       private  sqlite sqlite;
-       public inserir(Context context){
-           sqlite = new sqlite(context);
-       }
-       public String adicionar_Dados(int id, String cpf, String local){
-           ContentValues pessoas;
-        db = sqlite.getWritableDatabase();
-        pessoas = new ContentValues();
-        
-       }
+    class inserir {
+        private SQLiteDatabase db;
+        private sqlite sqlite;
+
+        public inserir(Context context) {
+            sqlite = new sqlite(context);
+        }
+
+        public String adicionar_Dados(int id, String cpf, String local) {
+            ContentValues pessoas;
+            db = sqlite.getWritableDatabase();
+            pessoas = new ContentValues();
+return  pessoas.toString();
+        }
     }
+    
 
 }
