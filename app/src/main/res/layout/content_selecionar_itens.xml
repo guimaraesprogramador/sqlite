@@ -15,9 +15,15 @@
         tools:layout_editor_absoluteX="62dp"
         tools:layout_editor_absoluteY="161dp">
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="pesquisar" />
+
         <ListView
             android:id="@+id/lista"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="529dp" />
     </LinearLayout>
 </android.support.constraint.ConstraintLayout>
